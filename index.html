@@ -12,14 +12,17 @@
 
 <body>
     <!-- 页面头部 -->
-    <div class="header">
+    <header>
         <div class="logo">
             <h1>小慕医生</h1>
         </div>
         <div class="tool">
-
+            <img src="images/tel.png" alt="">
+            <span class="telnumber">088-88888888</span>
+            <a href=""><img src="images/chinese_icon.png" alt=""></a>
+            <a href=""><img src="images/english_icon.png" alt=""></a>
         </div>
-        <div class="nav">
+        <nav class="main-nav">
             <ul>
                 <li>首页</li>
                 <li>医院概况</li>
@@ -30,10 +33,12 @@
                 <li>信息公开</li>
                 <li>互动交流</li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <!-- 网页的banner -->
-    <div class="banner">
+    <section class="banner">
+        <img src="images/banner.png" alt="">
+        <h2>责任，科学，严谨</h2>
         <ol>
             <li></li>
             <li></li>
@@ -41,41 +46,74 @@
             <li></li>
         </ol>
 
-    </div>
+    </section>
 
     <!-- 主要内容 -->
-    <div class="content">
+    <section class="content">
         <div class="useful-link">
             <ul>
-                <li>就诊须知</li>
-                <li>就医流程</li>
-                <li>专家介绍</li>
-                <li>科室介绍</li>
-                <li>医保就医</li>
-                <li>健康体检</li>
+                <li>
+                    <a href="">
+                        <img src="images/icon_jzxz.png" alt="">
+                        <span>就诊须知</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/icon_jylc.png" alt="">
+                        <span>就医流程</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/icon_zjjs.png" alt="">
+                        <span>专家介绍</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/icon_ksjs.png" alt="">
+                        <span>科室介绍</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/icon_ybjy.png" alt="">
+                        <span>医保就医</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/icon_jktj.png" alt="">
+                        <span>健康体检</span>
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="news-and-notice">
             <div class="news">
-                <h2>医院动态</h2>
+                <h3>医院动态</h3>
                 <div class="news-content">
                     <div class="hot-news">
-
+                        <a href="">
+                            <img src="images/news_pic.png" alt="">
+                            <div>“全国首届健康预防与商业医疗保险论坛”在北京医院举办 </div>
+                        </a>
                     </div>
                     <ul>
-                        <li>年度医疗机构用血自查评分表和科室基本信息表</li>
-                        <li>关于上报北京市医疗机构临床用血信息的通知</li>
-                        <li>北京医院输血科通过验收并获批开展“临床基…</li>
-                        <li>关于将多拉司琼注射剂等药品纳入本市基本医…</li>
-                        <li>关于将多拉司琼注射剂等药品纳入本市基本医…</li>
-                        <li>关于调整完善本市基本医疗保险门诊特殊疾病…</li>
-                        <li>广东省药学会：关于印发《超药品说明书用药…</li>
-                        <li>人力资源社会保障部关于将36种药品纳入国家…</li>
+                        <li><a href="">年度医疗机构用血自查评分表和科室基本信息表</a></li>
+                        <li><a href="">关于上报北京市医疗机构临床用血信息的通知</a></li>
+                        <li><a href="">北京医院输血科通过验收并获批开展“临床基…</a></li>
+                        <li><a href="">关于将多拉司琼注射剂等药品纳入本市基本医…</a></li>
+                        <li><a href="">关于将多拉司琼注射剂等药品纳入本市基本医…</a></li>
+                        <li><a href="">关于调整完善本市基本医疗保险门诊特殊疾病…</a></li>
+                        <li><a href="">广东省药学会：关于印发《超药品说明书用药…</a></li>
+                        <li><a href="">人力资源社会保障部关于将36种药品纳入国家…</a></li>
                     </ul>
                 </div>
             </div>
             <div class="notice">
-                <h2>医院公告</h2>
+                <h3>医院公告</h3>
                 <ol>
                     <li>
                         <dl>
@@ -112,10 +150,10 @@
         </div>
         <div class="ad-images"></div>
         <div class="dep-info">
-            <h2>科室介绍</h2>
+            <h3>科室介绍</h3>
             <div class="dep-content">
                 <div>
-                    <h3>内科</h3>
+                    <h4>内科</h4>
                     <ul>
                         <li>呼吸内科</li>
                         <li>消化内科</li>
@@ -129,7 +167,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3>肿瘤科</h3>
+                    <h4>肿瘤科</h4>
                     <ul>
                         <li>肿瘤内科</li>
                         <li>肿瘤外科</li>
@@ -141,7 +179,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3>外科</h3>
+                    <h4>外科</h4>
                     <ul>
                         <li>普通外科</li>
                         <li>神经外科</li>
@@ -156,7 +194,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3>儿科</h3>
+                    <h4>儿科</h4>
                     <ul>
                         <li>儿科综合</li>
                         <li>小儿内科</li>
@@ -170,7 +208,7 @@
             </div>
         </div>
         <div class="exp-info">
-            <h2>专家介绍</h2>
+            <h3>专家介绍</h3>
             <ul>
                 <li>
                     <div class="picbox"></div>
@@ -228,10 +266,11 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
     <!-- 页脚 -->
     <div class="footer">
         <div class="friends-links">
+            <h3>友情链接</h3>
             <ul>
                 <li>院长信箱</li>
                 <li>投诉信箱</li>
@@ -243,6 +282,7 @@
             </ul>
         </div>
         <div class="address">
+            <h3>小慕医生</h3>
             <ul>
                 <li>地址：北理工国防大厦111号</li>
                 <li>电话：088-88888888</li>
